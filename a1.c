@@ -1,5 +1,4 @@
 #include <stdio.h> 
-#include <locale.h>
 
 void inverte(int vetor[], int n){
 	int auxiliar[n];
@@ -24,8 +23,7 @@ int main(){
 	for(int count = 0; count < 5; count++){
 		printf("%d \t", vet[count]);	
 	}
-}
- 	
+} 	
 
 
 
